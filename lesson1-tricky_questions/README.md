@@ -189,7 +189,7 @@ Link to screnshot also here [HERE](./prompt3_response_pseudo_programming.png)
 - correct result in code block
 
 
-## Subjective leaderboard of models
+# Subjective leaderboard of models
 
 1. **GPT4o**
     - completed all 3 correct, nice output format, good explanations, not making silly mistakes. Seems like best model.
