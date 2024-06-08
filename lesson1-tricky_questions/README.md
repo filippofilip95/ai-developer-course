@@ -47,11 +47,14 @@ I want result to be in square meters.
 
 Output results and order how did you calculated it.
 
-Screenshot of prompt responses [here](./prompt1_response_calculation.png)
+
 
 ### tricky parts
 - different units
 - calculation
+
+Link to screnshot also here [HERE](./prompt1_response_calculation.png)
+![prompt1_response_calculation](./prompt1_response_calculation.png?raw=true "prompt1_response_calculation")
 
 
 ## Model responses
@@ -101,7 +104,8 @@ I want you to create paragraph in length of 100 characters in this text style so
 
 Output just paragraph in mentioned style together with the exact same paragraph in normal style so i can check it's correctnes.
 
-Screenshot of prompt responses [here](./prompt2_response_reversed_text.png)
+Link to screnshot also here [HERE](./prompt2_response_reversed_text.png)
+![prompt2_response_reversed_text](./prompt2_response_reversed_text.png?raw=true "prompt2_response_reversed_text")
 
 ## tricky parts
 - understanding the assignmnet
@@ -145,7 +149,6 @@ Then we have this variable "openWindow"  where initial value is true.
 
 What is the output of variable when used with more "not" negations like this: not not not not not openWindow
 
-Screenshot of prompt responses [here](./prompt3_response_pseudo_programming.png)
 
 ### tricky parts
 - easy pseudo programming stuff
@@ -158,6 +161,9 @@ const openWindow = true
 console.log(!(!(!(!(!openWindow))))) // false
 
 ```
+
+Link to screnshot also here [HERE](./prompt3_response_pseudo_programming.png)
+![prompt3_response_pseudo_programming](./prompt3_response_pseudo_programming.png?raw=true "prompt3_response_pseudo_programming")
 
 ### Model responses
 
