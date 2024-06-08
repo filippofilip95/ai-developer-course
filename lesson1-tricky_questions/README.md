@@ -54,7 +54,7 @@ Output results and order how did you calculated it.
 - calculation
 
 Link to screnshot also here [HERE](./prompt1_response_calculation.png)
-![prompt1_response_calculation](./prompt1_response_calculation.png?raw=true "prompt1_response_calculation")
+![prompt1_response_calculation](./prompt1_response_calculation.png?raw=true)
 
 
 ## Model responses
