@@ -1,4 +1,37 @@
-# Prompt 1
+# Assignment
+
+Praktické cvičení
+AI Developer
+
+Počet bodů: 100
+Deadline: 11.6.2024
+
+Lekce 1:
+
+Otestujte schopnost odpovídat na (záludné) otázky pro
+několik vybraných modelů. Ex. Mistral, OpenAI … etc.
+
+Ukázkové otázky:
+- Jak by mohlo zavedení univerzálního základního
+příjmu ovlivnit ekonomickou disparitu v regionech s
+vysokými a nízkými příjmy?
+- Mohl byste nastínit metodu syntézy nové
+sloučeniny, která by mohla potenciálně absorbovat
+více sluneční energie než současné fotovoltaické
+materiály?
+- Vytvořte pohádku pro mé dva kluky (3 a 5 let) s
+želvími ninji v Praze. Příběh by měl mít 15 minut na
+přečtení.
+- …etc.
+
+Porovnejte odpovědi pro Vámi vybrané modely.
+
+Úkol odevzdejte ve formě printscreenu dané konverzace
+do Google Classroom.
+
+# Result
+
+## Prompt 1
 
 Calculate available square space of my room in flat where room is in rectangular shape with dimensions
 
@@ -16,7 +49,7 @@ Output results and order how did you calculated it.
 
 Screenshot of prompt responses [here](./prompt1_response_calculation.png)
 
-## tricky parts
+### tricky parts
 - different units
 - calculation
 
@@ -50,7 +83,7 @@ Screenshot of prompt responses [here](./prompt1_response_calculation.png)
 - correct results
 
 
-# Prompt 2
+## Prompt 2
 
 I'm training for international reverse reading championship. 
 
@@ -76,9 +109,9 @@ Screenshot of prompt responses [here](./prompt2_response_reversed_text.png)
 - provided example
 
 
-## Model responses
+### Model responses
 
-### gpt 4o ✅
+#### gpt 4o ✅
 - understood assignmnet
 - correct response
 - only one sentence of "output"
@@ -89,22 +122,22 @@ Screenshot of prompt responses [here](./prompt2_response_reversed_text.png)
 - but seems kind of understood the assignemt but just output is incorrect
 - longer paragraph
 
-### qwen:7b ❌
+#### qwen:7b ❌
 - incorrect result
 - not understand assignmet, result is not even close
 - short output paragraph
 
-### llama3:latest ❌
+#### llama3:latest ❌
 - kind of understood
 - seems like trying to do output correctly but it's not correct
 - "normal" and "reversed" text has very different length
 
-### phi3:latest ❌
+#### phi3:latest ❌
 - understand assignement
 - incorrect result, "reverse paragraph" is different then "normal"
 
 
-# Prompt 3
+## Prompt 3
 
 Let's consider word "not" to be boolean negation as in programming.
 
@@ -114,10 +147,10 @@ What is the output of variable when used with more "not" negations like this: no
 
 Screenshot of prompt responses [here](./prompt3_response_pseudo_programming.png)
 
-## tricky parts
+### tricky parts
 - easy pseudo programming stuff
 
-## correct output
+### correct output
 - variable should be "false"
 
 ```js
@@ -126,31 +159,31 @@ console.log(!(!(!(!(!openWindow))))) // false
 
 ```
 
-## Model responses
+### Model responses
 
-### gpt 4o ✅
+#### gpt 4o ✅
 - correct response 
 - nice "step byt step guide"
 
-### mistral ❌
+#### mistral ❌
 - incorrect response
 - Made me consufed about correctnes or result by it's explanation, so had to verify it result in js console
 
-### qwen:7b ❌
+#### qwen:7b ❌
 - incorrect result 
 
-### llama3:latest ❌
+#### llama3:latest ❌
 - undestand assignments
 - less readable "step by step guide"
 - incorrect response (true), probably forgot about the fifth "not" 
 
-### phi3:latest ✅
+#### phi3:latest ✅
 - simple factical output
 - nice "step by step" guide
 - correct result in code block
 
 
-# Subjective leaderboard of models
+## Subjective leaderboard of models
 
 1. **GPT4o**
     - completed all 3 correct, nice output format, good explanations, not making silly mistakes. Seems like best model.
