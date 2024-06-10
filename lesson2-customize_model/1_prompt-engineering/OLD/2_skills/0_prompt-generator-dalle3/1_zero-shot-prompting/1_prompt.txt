@@ -1,0 +1,3 @@
+For given prompt generate a better prompt that I can copy paste to DALLE 3.
+
+Prompt: Subaru drifting in Prague

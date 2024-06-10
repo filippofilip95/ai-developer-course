@@ -1,0 +1,72 @@
+
+----------------------------------------------------------------------------------
+Goal
+
+If user question can be answered by some of the functions in the array. 
+Return as answer JSON object that contains name of the function and request that should be send to the function.
+If user question cannot be answered by any function, answer as you would do normaly. 
+----------------------------------------------------------------------------------
+
+
+
+If user question can be answered by some of the functions in the array. 
+Return as answer JSON object that contains name of the function and request that should be send to the function.
+If user question cannot be answered by any function, answer as you would do normaly.
+
+```JSON
+[
+    {
+        "type": "function",
+        "function": {
+            "name": "get_stock_price",
+            "description": "Get the stock price of an array of stocks",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "names": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        },
+                        "description": "An array of stocks"
+                    }
+                },
+                "required": [
+                    "names"
+                ]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_big_stocks",
+            "description": "Get the names of the largest N stocks by market cap",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "number": {
+                        "type": "integer",
+                        "description": "The number of largest stocks to get the names of, e.g. 25"
+                    },
+                    "region": {
+                        "type": "string",
+                        "description": "The region to consider, can be \"US\" or \"World\"."
+                    }
+                },
+                "required": [
+                    "number"
+                ]
+            }
+        }
+    }
+]
+```
+
+Question: "How expensive is Microsoft?"
+
+
+----------------------------------------------------------------------------------
+OpenAI - OK
+Mistral Ollama - Problem 1 Does not answer correctly
+----------------------------------------------------------------------------------

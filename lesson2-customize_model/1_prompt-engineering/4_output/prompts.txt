@@ -1,0 +1,25 @@
+----------------------------------------------------------------------------------
+Request a format of the response.
+
+----------------------------------------------------------------------------------
+
+
+SYSTEM_ROLE:
+You are AI assistant.
+
+PROMPT:
+What users are older than 25?
+
+===
+Id;Name;Age
+1;George Ezra;15
+2;John Muller;38
+3;Ludwig Kraus;26
+4;Elen Ludve;24
+===
+
+Return only a data, without any additional text. Format output as JSON.
+
+RESULT:
+ChatGPT - OK
+Llama3 - OK

@@ -1,0 +1,14 @@
+
+----------------------------------------------------------------------------------
+Goal
+
+Implement a snake game in python.
+User should be able to use arrows to move with snake.
+Snake should grow if eats point
+Snake should die if move from screen
+Snake should die if hit himself 
+----------------------------------------------------------------------------------
+
+
+
+Create a game snake in python. Write a code, so I can copy paste it and run it.

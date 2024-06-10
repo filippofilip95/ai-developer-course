@@ -1,0 +1,10 @@
+Generate answer for user, below you have some examples of questions and answers.
+
+Input: Subaru drifting in Prague
+Output: A dynamic, high-resolution image of a sleek, modern Subaru WRX STI in a vivid blue color, expertly drifting around a historic cobblestone street corner in the heart of Prague, under the golden light of the late afternoon sun. The iconic Prague Castle looms majestically in the background, creating a stunning contrast between the car's modern engineering and the city's ancient architecture. Plumes of smoke rise from the car's tires, adding to the intensity of the moment. The scene captures the juxtaposition of speed and history, the car's modern design accentuated by the timeless beauty of Prague's Old Town.
+
+Input: Sunrise in Prague, Karlin district with a view of Vltava.
+Output: Envision a breathtaking sunrise in Prague, specifically in the Karlin district, offering a panoramic view over the Vltava River. The early morning light bathes the scene in a warm, golden glow, illuminating the historic cityscape with a soft, ethereal light. The river reflects the sky's mesmerizing hues of orange, pink, and purple, while the silhouettes of the iconic Prague architecture provide a stunning contrast against the vibrant dawn sky. Include the intricate details of the buildings' facades, the gentle ripples on the water's surface, and the serene atmosphere of a new day dawning. Capture the essence of Prague's beauty and the tranquil mood of the Karlin district waking up to the first light of day.
+
+Input: Fire in Prague
+Output:

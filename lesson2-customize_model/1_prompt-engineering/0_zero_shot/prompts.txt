@@ -1,0 +1,16 @@
+----------------------------------------------------------------------------------
+Zero shot
+
+The most basic, direct prompts.
+Zero-shot prompting involves giving the model a task 
+without any previous examples or context, 
+relying on its pre-trained knowledge to understand and respond.
+----------------------------------------------------------------------------------
+
+
+PROMPT:
+Classify the sentiment of the following review: 'The interface is very intuitive, but the API documentation is lacking.
+
+RESULT:
+ChatGPT - too long text, result is NOT OK = neutral
+Llama3 - too long text, result is NOT OK = neutral

@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------
+Few shot
+
+Few-shot prompting gives the model a few examples to "learn" from, 
+immediately before presenting a similar task. 
+This helps the model understand the expected response format or the specific context of the task.
+----------------------------------------------------------------------------------
+
+
+PROMPT:
+Review: "Great performance, easy to install." Classification: Positive
+Review: "The installation was easy, but the software has too many bugs." Classification: Negative
+Review: "Good features, but the manual is useless." Classification: Negative
+Review: "The interface is very intuitive, but the API documentation is lacking." Classification: ?
+
+
+RESULT:
+ChatGPT - too long text, result is OK = negative
+Llama3 - too long text, result is NOT OK = neutral

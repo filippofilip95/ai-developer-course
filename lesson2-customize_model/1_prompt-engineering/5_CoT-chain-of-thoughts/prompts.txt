@@ -1,0 +1,11 @@
+----------------------------------------------------------------------------------
+Give model more time to think
+
+----------------------------------------------------------------------------------
+
+
+If we lay 5 shirts out in the sun, it takes 4 hours for the shirts to dry. How long does it take to dry 20 shirt? 
+Answer only number.
+vs.
+If we lay 5 shirts out in the sun, it takes 4 hours for the shirts to dry. How long does it take to dry 20 shirt? 
+Explain the reasoning step by step.
