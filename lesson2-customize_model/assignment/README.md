@@ -7,12 +7,12 @@ engineeringu. Výstupem může být textový soubor s otázkami a odpověďmi,
 nebo printscreeny z komunikace.
 
 - Reasoning
-- Hard questions 
+  - Hard questions 
 - Skills
   - Coding
     - Snake in python - Link
-      - REST generation - Link
-        - For given swagger generate api call
+    - REST generation - Link
+    - For given swagger generate api call
 - Tool usage - Link
   - For given set of tools return call of one of them
 
